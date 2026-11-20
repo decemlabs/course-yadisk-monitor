@@ -2,7 +2,7 @@ name: monitor-yadisk
 
 on:
   schedule:
-    - cron: "0 17 * * *"   # 20:00 МСК (UTC+3, без перехода на летнее время)
+    - cron: "0 5,11,17,23 * * *"
   workflow_dispatch:        # кнопка ручного запуска
 
 permissions:
